@@ -102,12 +102,13 @@ for(let index=0; index<studenti.length; index++){
     studenti[index].name=studenti[index].name.toUpperCase()
 }
 
-console.log(studenti)
 
-// const studentiVoti=studenti.filter((elemnt) =>{
 
-    
+const studentiVoti=studenti.filter((element) => element.grades > 70);
 
-//     if(Element.grades < 70)
+console.log(studentiVoti)
 
-// });
+
+const studentiVotiId=studenti.filter((element) => element.grades > 70 && element.id > 120);
+
+console.log(studentiVotiId)
