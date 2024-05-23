@@ -32,7 +32,7 @@ const studenti=[
 
         name:"Giuseppina della Rovere",
 
-        grades:78,
+        grades:78
 
     },
 
@@ -42,7 +42,7 @@ const studenti=[
 
         name:"Paola Cortellessa ",
 
-        grades:96,
+        grades:96
 
     },
 
@@ -52,7 +52,7 @@ const studenti=[
 
         name:" Andrea Mantegna ",
 
-        grades:48,
+        grades:48
 
     },
 
@@ -62,7 +62,7 @@ const studenti=[
 
         name:"Gaia Borromini",
 
-        grades:74,
+        grades:74
 
     },
     {
@@ -71,7 +71,7 @@ const studenti=[
 
         name:"Luigi Grimaldello",
 
-        grades:68,
+        grades:68
 
     },
     {
@@ -80,7 +80,7 @@ const studenti=[
 
         name:"Piero della Francesca ",
 
-        grades:50,
+        grades:50
 
     },
     {
@@ -89,9 +89,25 @@ const studenti=[
 
         name:"Francesca da Polenta",
 
-        grades:84,
+        grades:84
 
     },
 
 ]
 
+for(let index=0; index<studenti.length; index++){
+
+    
+
+    studenti[index].name=studenti[index].name.toUpperCase()
+}
+
+console.log(studenti)
+
+// const studentiVoti=studenti.filter((elemnt) =>{
+
+    
+
+//     if(Element.grades < 70)
+
+// });
