@@ -12,13 +12,12 @@
 // });
 
 
-// for (let index=0; index<invitati.length; index++){
+for (let index=0; index<invitati.length; index++){
 
-//     invitatiAndOrdine.push({"guestName" : invitati[index] , "tabelename" : "Tavolo Vip" , "place" : index } )
+    invitatiAndOrdine.push({"guestName" : invitati[index] , "tabeleName" : "Tavolo Vip" , "place" : index } )
     
-    
-//     console.log(invitatiAndOrdine[index].guestName);
-// }
+
+}
 
 // console.log(invitatiAndOrdine);
 
