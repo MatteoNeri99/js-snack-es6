@@ -7,12 +7,13 @@ const squadre=[
 ];
 
 
+const squadreDue=[];
 
 function numeroRandom (min, max){
 
     return Math.floor(Math.random() * ((max + 1 ) - min)+ min);
     
-}
+};
 
 
 for(let index=0;  index<squadre.length; index++){
@@ -20,8 +21,11 @@ for(let index=0;  index<squadre.length; index++){
 
     squadre[index].falliSubiti=numeroRandom(1,100);
 
-   
+    const {nome,falliSubiti}=squadre[index];
+    console.log(nome,falliSubiti)
 
-}
+    squadreDue.push({nome,falliSubiti})
 
-console.log(squadre)
+};
+
+console.log(squadreDue);
