@@ -4,6 +4,7 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare in console la bici con peso minore utilizzando destructuring e template literal
 
 
+
 1) creo l'array con piu oggetti "bici" all'interno 
 
 2) con un ciclo controllo quale sia la bici con il peso minore e la estraggo in una variabile con destructuring
